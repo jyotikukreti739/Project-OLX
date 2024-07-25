@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    background-color: #efecec;
+}
+
+.search {
+    position: relative;
+    margin: 0 2rem;
+}
+.search-icon {
+    position: absolute;
+    left: 7px;
+    top: 30px;
+    /* position: relative; */
+    /* margin-top: 2.9rem; */
+}
+
+.search-icon .icon {
+    height: 20px;
+    width: 20px;
+}
+.olx-class {
+    height: 3rem;
+    width: 7rem;
+    margin-top: 10px;
+    background-color: rgba(233, 236, 236, 0.653);
+
+}
+.city {
+    /* position: absolute; */
+    width: 20rem;
+    height: 3.3rem;
+    margin-top: 10px;
+    padding-left: 2.5rem;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.find {
+    /* margin-top: 2rem; */
+    /* margin-left: 21rem; */
+    position: relative;
+}
+.find-option {
+    margin-top: 10px;
+    width: 24rem;
+    height: 3rem;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding-left: 1rem;
+    padding-right: 30px;
+   
+}
+
+.search-btn {
+    position: absolute;
+    top: 11px;
+    right: 2px;
+    height: 50px;
+    width: 60px;
+    background-color: black;
+}
+
+.search-btn .icon {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.lang {
+    margin-top: 10px;
+    margin-left: 1rem;
+}
+.languages {
+    width: 5.2rem;
+    height: 3rem;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+}
+.login {
+    margin-top: 24px;
+    margin-left: 1.5rem;
+}
+
+.login a {
+    text-decoration: underline;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.button {
+    margin-top: 15px;
+    margin-left: 1.6rem;
+    
+}
+.sell-btn {
+    font-size: 14px;
+    height: 38px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: 3px solid red;
+}
+.nav-menu {
+    margin-top: 6rem;
+}
+.navbar{
+    background-color: white;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 6rem;
+}
+
+.ALL-CATEGORIES {
+    font-weight: bold;
+    border: none;
+}
+.advertise {
+    background-color: rgba(233, 236, 236, 0.653);
+    text-align: center;
+    color: rgb(54, 52, 52);
+    width: 100%;
+    padding: 5px;
+}
+
+.goodle-ads  {
+    margin: 0 3rem;
+    text-align: center;
+}
+
+.goodle-ads  img {
+    height: 200px;
+}
+
+.main-conatiner {
+    position: relative;
+}
+.box {
+    margin-top: 0.3rem;
+   
+}
+.rec {
+    padding-left: 1.5rem;
+    display: flex;
+    font-size: 24px;
+}
+.recommendations {
+    padding-left: 1.5rem;
+    /* display: flex; */
+    font-size: 24px;
+    
+    /* border: 1px solid black; */
+
+    
+}
+.portions {
+    height: 290px;
+    display: inline-block;
+    width: 250px;
+    border: 1px solid lightgrey;
+    padding: 0.7rem;
+    border-radius: 4px;
+    margin-left: 1rem;
+    
+    
+}
+.car-img {
+    height: 190px;
+    width: 250px;
+}
+.price {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 1rem;
+   
+}
+.seat {
+    font-size: 18px;
+    padding-left: 18px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+
+}
+.address {
+    font-size: 12px;
+    padding-left: 5px;
+    color: rgba(14, 6, 6, 0.735);
+    
+
+}
+.car-img1 {
+    height: 190px;
+    width: 150px;
+    padding-left: 2.5rem;
+}
+.year {
+    font-size: 16px;
+    padding-left: 5px;
+}
+.price1 {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0.2rem;
+   
+}
+.seat1 {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 5px;
+    /* padding-bottom: 8px; */
+
+}
+.address1 {
+    font-size: 12px;
+    padding-left: 5px;
+    color: rgba(14, 6, 6, 0.735);
+    
+
+}
+.button {
+    text-align: center;
+    
+}
+.load-button {
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.load-button:hover {
+    border-radius: 6px solid black;
+}
+.image-box {
+    /* height: 20rem;
+    width: 25rem;
+    border: 1px solid black;
+    margin-left: 25rem;
+    margin-top: 1rem;
+    position: relative; */
+    margin: 20px 0;
+}
+.sub-try {
+    display: flex;
+    margin-top: 1rem;
+    background-color: rgba(233, 236, 236, 0.653);
+
+}
+.buyy-sell {
+    height: 15rem;
+    width: 19rem;
+    padding-top: 2rem;
+}
+.cont {
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+.cont1 {
+    font-size: 20px;
+}
+.google {
+    margin: 1rem;
+}
+.heading {
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+    margin-bottom: 16px;
+    font-weight: bold;
+    
+}
+.photo {
+    margin-left: 3.6rem;
+}
+.headings-box{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(233, 236, 236, 0.653);
+
+    
+  
+}
+.location11{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.location1 ul{
+    list-style: none;
+    
+}
+.location1 ul li{
+    padding-bottom: 5px;
+}
+.location12{
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+.icons {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 8px;
+}
+.icon {
+    height: 20px;
+    width: 20px;
+    
+}
+.photo1 {
+   margin-top: 4rem;
+   
+}
+.app{
+    height: 25px;
+    width: 90px;
+}
+.footer {
+    background-color: black;
+    height: auto;
+    /* padding: 10px; */
+    padding: 2rem 1rem;
+}
+.marketing { 
+    /* display: flex; */
+    /* gap: 5rem; */
+    margin: 16px auto;
+    width: 100%;
+    /* max-width: 1200px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.marketing .footer-icon {
+    /* padding: 2rem;
+    height: 100px; */
+    height: 96px;
+    width: 144px;
+    
+}
+
+.marketing .footer-icon1 {
+    height: 96px;
+    padding-right: 48px;
+}
+
+.border-right {
+    border-right: 1px solid white;
+}
+/* .tech {
+    height: 10rem;
+    width: 50px;
+} */
+.footer-copy {
+    color: white;
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    font-size: 12px;
+}
+.help{
+    text-align: left;
+    width: 50%;
+}
+.help1{
+    text-align: right;
+    width: 50%;
+}
+
+.move-top-container {
+    
+}
+
+.move-top {
+    position: fixed;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    animation: _3UyLB .3s ease;
+    z-index: 9;
+    min-width: 160px;
+}
+
+.move-top a {
+    background-color: white;
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.move-top a .icon {
+    font-size: 19px;
+}
